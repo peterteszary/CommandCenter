@@ -8,3 +8,6 @@ ssh-keygen -t rsa -b 4096 -C "peterteszary@gmail.com" : generate SSH key
 ls | grep githubkey : list the keys
 cat githubkey.pub : show the key value
 git push origin master : push to the repo's main branch
+git pull origin main : pull the main branch
+git push -u origin main : push the changes to the main repository
+git init : initialize folder
