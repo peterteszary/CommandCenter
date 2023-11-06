@@ -11,3 +11,5 @@ git push origin master : push to the repo's main branch
 git pull origin main : pull the main branch
 git push -u origin main : push the changes to the main repository
 git init : initialize folder
+git branch : to check the branch that we are in
+git checkout -b newbranchname : create and switch to a new branch
