@@ -14,6 +14,10 @@ git init : initialize folder
 git branch : to check the branch that we are in
 git checkout -b newbranchname : create and switch to a new branch
 git merge newbranchname : merging two branches together
-git diff nameofthebranch: show the differences
+git diff nameofthebranch : show the differences
 git pull origin master: this pulls the master branch
 git checkout master : back to the master branch
+git branch -d branchname : this deletes the specific branch (branchname)
+git reset readme.md : unstage the readme.md file
+
+stach = temp --> a temporary place for the changes without committing
