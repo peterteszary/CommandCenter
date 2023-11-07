@@ -15,3 +15,5 @@ git branch : to check the branch that we are in
 git checkout -b newbranchname : create and switch to a new branch
 git merge newbranchname : merging two branches together
 git diff nameofthebranch: show the differences
+git pull origin master: this pulls the master branch
+git checkout master : back to the master branch
