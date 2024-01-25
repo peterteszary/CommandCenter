@@ -21,3 +21,12 @@ git branch -d branchname : this deletes the specific branch (branchname)
 git reset readme.md : unstage the readme.md file
 
 stach = temp --> a temporary place for the changes without committing
+
+## Sparse Checkout Commands
+
+git init
+git remote add -f origin https://github.com/peterteszary/Study-Scriptorium-Asylum.git
+git config core.sparseCheckout true
+git sparse-checkout
+git sparse-checkout set 100-Days-of-Code-The-Complete-Python-Pro-Bootcamp-for-2022/ Day2/
+git pull origin main
