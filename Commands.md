@@ -1,10 +1,10 @@
-git clone https://github.com/peterteszary/gitpractice.git   : clone repository
-la : List files (hidden files as well)
-ls -la: 
-git status: show the changes
-git add . : add all files to tracking
-git commit -m "New Commit" -m "some description" : commit with a message (-m stands for message)
-ssh-keygen -t rsa -b 4096 -C "peterteszary@gmail.com" : generate SSH key
+git clone https://github.com/peterteszary/gitpractice.git   : clone repository\
+la : List files (hidden files as well)\
+ls -la: \
+git status: show the changes\
+git add . : add all files to tracking\
+git commit -m "New Commit" -m "some description" : commit with a message (-m stands for message)\
+ssh-keygen -t rsa -b 4096 -C "peterteszary@gmail.com" : generate SSH key\
 ls | grep githubkey : list the keys
 cat githubkey.pub : show the key value
 git push origin master : push to the repo's main branch
