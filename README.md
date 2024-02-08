@@ -1,6 +1,6 @@
 # Command Center
-This is a Repository for Git, Docker and some other commands that can be useful.
+This is a repository for Git, Docker and a few other commands that might be useful.
 
-# Commands
-
-Find my commands in the Commands.md
+# GitCommands
+Useful Git commands can be found in GitCommands.md.
+Sparse Checkout Find Git commands in SparseCheckout.md
