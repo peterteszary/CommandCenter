@@ -1,5 +1,5 @@
-# gitpractice
-This is a Repository for Git study purposes
+# Command Center
+This is a Repository for Git, Docker and some other commands that can be useful.
 
 # Commands
 
