@@ -31,26 +31,26 @@ git sparse-checkout\
 git sparse-checkout set 100-Days-of-Code-The-Complete-Python-Pro-Bootcamp-for-2022/ Day2/\
 git pull origin main\
 
-Ide akármit beleírhatok
+Ide akármit beleírhatok\
 
-Spars checkout commands
+Spars checkout commands\
 
-mkdir spearcheckout-test
-cd spearcheckout-test
-git init
-git remote add -f origin <GIT REMOTE REPO URL>
-git config core.sparseCheckout true
-echo “Forráskód/SyncHubTheme" >> .git/info/sparse-checkout
-git fetch --depth=1 origin main
-git checkout main
+mkdir spearcheckout-test\
+cd spearcheckout-test\
+git init\
+git remote add -f origin <GIT REMOTE REPO URL>\
+git config core.sparseCheckout true\
+echo “Forráskód/SyncHubTheme" >> .git/info/sparse-checkout\
+git fetch --depth=1 origin main\
+git checkout main\
 
-Most jön a szerkesztés, pl.: code .
+Most jön a szerkesztés, pl.: code .\
 
-Add new file pl.: Forráskód/SyncHubTheme/css/main.css
-Majd mentés
+Add new file pl.: Forráskód/SyncHubTheme/css/main.css\
+Majd mentés\
 
-git add --sparse .
-git commit -m "Add valami”
-git push origin main
+git add --sparse .\
+git commit -m "Add valami”\
+git push origin main\
 
 DÁÁÁÁÁÁÁN
