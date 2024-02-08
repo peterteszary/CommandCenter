@@ -79,9 +79,12 @@ git checkout master
 ```
 git branch -d branchname
 ```
+ Unstage the readme.md file
 
-git reset readme.md : unstage the readme.md file
 ```
+git reset readme.md
 ```
-stach = temp --> a temporary place for the changes without committing\
-
+A temporary place for the changes without committing
+```
+stach = temp
+```
