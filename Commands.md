@@ -53,4 +53,3 @@ git add --sparse .\
 git commit -m "Add valami”\
 git push origin main\
 
-DÁÁÁÁÁÁÁN
