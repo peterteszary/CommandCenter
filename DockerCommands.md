@@ -1,7 +1,7 @@
 # Docker Cheat Sheet
 
 ## Alap parancsok
-```bash
+```
 docker version           # Docker verziójának megtekintése
 docker info              # Részletes információk a Docker telepítésről
 docker help              # Általános segítség a Docker használatához
@@ -38,6 +38,7 @@ docker network rm <name> # Hálózat törlése
 docker volume ls         # Docker volumenek listázása
 docker volume create <name> # Új volumen létrehozása
 docker volume rm <name>  # Volumen törlése
+
 ```
 ### Tisztítás és karbantartás
 ```
