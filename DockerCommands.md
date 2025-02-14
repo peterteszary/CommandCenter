@@ -5,9 +5,9 @@
 docker version           # Docker verziójának megtekintése
 docker info              # Részletes információk a Docker telepítésről
 docker help              # Általános segítség a Docker használatához
-
+```
 ### Konténerek kezelése
-
+```
 docker ps                # Futtató konténerek listázása
 docker ps -a             # Minden (futó és leállított) konténer listázása
 docker run <image>       # Új konténer indítása a megadott image-ből
@@ -18,7 +18,7 @@ docker rm <container>    # Leállított konténer törlése
 docker rm -f <container> # Futtató konténer kényszerített törlése
 docker logs <container>  # Konténer logjainak megtekintése
 docker exec -it <container> bash # Belépés egy futó konténerbe bash terminállal
-
+```
 
 ### Image-ek kezelése
 
