@@ -35,6 +35,7 @@ docker network ls        # Docker hálózatok listázása
 docker network create <name> # Új hálózat létrehozása
 docker network rm <name> # Hálózat törlése
 ```
+```
 docker volume ls         # Docker volumenek listázása
 docker volume create <name> # Új volumen létrehozása
 docker volume rm <name>  # Volumen törlése
@@ -62,3 +63,5 @@ docker stop $(docker ps -q) # Összes futó konténer leállítása
 docker rm $(docker ps -aq) # Összes konténer törlése
 docker rmi $(docker images -q) # Összes image törlése
 ```
+
+
